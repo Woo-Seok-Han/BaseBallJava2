@@ -8,6 +8,7 @@ public class ProtossUnit extends Unit {
     public ProtossUnit(int hp, int shield, int strength) {
         super(hp, strength);
         this.shield = shield;
+
     }
 
     public int getShield() {
